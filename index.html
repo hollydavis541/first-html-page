@@ -1,0 +1,45 @@
+<html>
+
+<head>
+    <title>
+        My First Webpage
+    </title>
+    <style>
+        h1 {
+            color: rgb(255, 229, 72);
+            background-color: rgb(255, 75, 62);
+        }
+    </style>
+</head>
+
+<body>
+    <header>awesome navigation goes here</header>
+    <main>
+        <h1>Class 1 Lab</h1>
+        <p style="color:rgb(151, 45, 7); background-color:rgb(255, 229, 72);">Hi there, what's your name?</p>
+        <p style="color:rgb(121, 51, 121); background-color:rgb(255, 178, 15);">What is your favorite hobby (e.g.
+            skiing)?</p>
+        <p style="color:rgb(255, 255, 255); background-color:rgb(255, 75, 62);">What place would you like to visit (e.g.
+            Rome)?</p>
+        <p style="color:rgb(21, 21, 133); background-color:rgb(184, 180, 45);">What is your favorite animal (e.g. cow)?
+        </p>
+    </main>
+    <script>
+        var yourName = prompt('Hi there, what\'s your name?');
+        console.log('Person\'s Name: ' + yourName);
+        alert("Hi " + yourName + "!");
+        var favHobby = prompt("What is your favorite hobby (e.g. biking)?");
+        console.log('Person\'s favorite hobby: ' + favHobby);
+        alert('No way, ' + yourName + ', I love ' + favHobby + ' too!');
+        var favPlace = prompt('What place would you like to visit (e.g. Rome)?');
+        console.log('Perons\'s favorite place: ' + favPlace);
+        alert(favPlace + ' sounds awesome, ' + yourName + '. Maybe you could go there to practice ' + favHobby + '.');
+        var favAnimal = prompt('What is your favorite animal (e.g. cow)?');
+        console.log('Perons\'s favorite animal: ' + favAnimal);
+        alert('Better yet, ' + yourName + ', move to ' + favPlace + ', get a ' + favAnimal + ', and go ' + favHobby + ' together!'); 
+    </script>
+    <footer>&copy Code 201</footer>
+
+</body>
+
+</html>
